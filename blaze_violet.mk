@@ -20,7 +20,6 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 BLAZE_BUILD_TYPE := Official
 BLAZE_MAINTAINER := Nalinish
-WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
