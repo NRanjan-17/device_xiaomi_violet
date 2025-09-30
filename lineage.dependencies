@@ -16,11 +16,5 @@
     "target_path": "vendor/xiaomi-firmware/violet",
     "branch":"fifteen",
     "remote":"gitlab"
-  },
-  {
-    "repository": "Joker-V2/android_vendor_MiuiCamera",
-    "target_path": "vendor/MiuiCamera",
-    "branch":"fifteen",
-    "remote":"gitlab"
   }
 ]

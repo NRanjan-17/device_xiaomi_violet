@@ -152,7 +152,8 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui.vendor \
     libxml2 \
-    vendor.qti.hardware.camera.device@1.0.vendor
+    vendor.qti.hardware.camera.device@1.0.vendor \
+    Aperture
 
 # Config Store
 PRODUCT_PACKAGES += \
