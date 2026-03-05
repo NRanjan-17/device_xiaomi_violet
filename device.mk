@@ -154,7 +154,8 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui.vendor \
     libxml2 \
-    vendor.qti.hardware.camera.device@1.0.vendor
+    vendor.qti.hardware.camera.device@1.0.vendor \
+    Aperture
 
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 

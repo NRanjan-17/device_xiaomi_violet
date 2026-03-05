@@ -9,17 +9,20 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common_full_phone.mk)
-SUPERIOR_BUILDTYPE := OFFICIAL
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_OMX_SERVICE := false
-WITH_GAPPS := false
+LUNARIS_BUILD_TYPE := OFFICIAL
+WITH_GMS := true
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_SUPPORTED_REFRESH_RATES := 60
+WITH_BCR := true
 
 # Inherit MiuiCamera
 $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_violet
+PRODUCT_NAME := lineage_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
