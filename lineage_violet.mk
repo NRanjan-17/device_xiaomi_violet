@@ -11,12 +11,8 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common SuperiorOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_OMX_SERVICE := false
-LUNARIS_BUILD_TYPE := OFFICIAL
-WITH_GMS := true
-TARGET_OPTIMIZED_DEXOPT := true
-TARGET_SUPPORTED_REFRESH_RATES := 60
-WITH_BCR := true
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit MiuiCamera
 $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
